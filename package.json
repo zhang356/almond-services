@@ -1,8 +1,8 @@
 {
-  "name": "almond-write-vector-db",
+  "name": "almond-api",
   "version": "0.1.0",
   "bin": {
-    "almond-write-vector-db": "bin/almond-write-vector-db.js"
+    "almond-api": "bin/almond-api.js"
   },
   "scripts": {
     "build": "tsc",
