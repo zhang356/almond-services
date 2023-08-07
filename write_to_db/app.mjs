@@ -3,7 +3,7 @@ export const lambdaHandler = async (event, context) => {
         return {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: 'Almond says hi',
+                message: 'Almond says hello',
             })
         }
     } catch (err) {

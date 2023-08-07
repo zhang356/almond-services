@@ -22,7 +22,7 @@ export class AlmondApiStack extends cdk.Stack {
     new apigateway.LambdaRestApi(this, "write-to-db-api", {
       handler: writeToDbLambda,
       restApiName: "write to db",
-      description: "convert text to embeddings then store to vector DB",
+      description: "convert text to embeddings then store in vector DB",
       integrationOptions: {
         timeout: cdk.Duration.seconds(29)
       }
